@@ -1,0 +1,93 @@
+/** ESTILOS GENERALES **/
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+}
+body {
+    background: linear-gradient(45deg, rgb(179, 179, 179), rgb(255, 47, 47));
+}
+/** ENCABEZADO **/
+header {
+    position: relative;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.137);
+    width: 100%;
+    overflow: hidden;
+}
+header:hover {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+#logoNav {
+    width: 4%;
+    height: fit-content;
+    padding: 5px;
+}
+.searchHome {
+    margin-left: 16%;
+}
+#searchLogo {
+    width: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.header {
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.header a {
+    color:white;    
+}
+/** INFORMACIÓN PRINCIPAL LANDING **/
+.back {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.back .card {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    align-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.back .card h1 {
+    font-size: 50px;
+    padding-bottom: 16px;
+}
+#logoHome {
+   width: 400px;
+}
+/** FOOTER **/
+footer {
+    margin-top: 4%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul {
+    display: flex;
+}
+.footer a {
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+footer h3 {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
